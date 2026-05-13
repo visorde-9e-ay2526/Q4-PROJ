@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+            <img src="Logo.png" alt="Logo">
+        </div>
+    <nav>
+        
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Virtual Notebooks</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li class="active"><a href="#">Profile</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+</aside>
+
+        <main class="main-content">
+            <header>
+                <div class="profile-badge">PROFILE</div>
+                <p class="subtitle">Student Information.</p>
+            </header>
+
+        <section class="profile-section">
+           <div class="avatar-container">
+           <div class="avatar">
+                <img src="Avatar.png" alt="User Avatar" id="profile-img">
+        </div>
+            
+        <div class="file-upload">
+            <input type="file" id="file-input" hidden>
+            <button id="upload-btn">Choose File</button>
+            <span id="file-name">No file chosen</span>
+        </div>
+    </div>
+
+        <div class="info-card">
+            <h2>Student Information:</h2>
+                    
+        <div class="info-group">
+            <label>Student ID:</label>
+                <p>SN123456</p>
+        </div>
+
+        <div class="info-group">
+            <label>Contact Number:</label>
+            <p>+639150000001</p>
+        </div>
+
+        <div class="info-group">
+            <label>Email Address:</label>
+                <p>VISORDE.CM@OBMONTESSORI.EDU.PH</p>
+        </div>
+
+        <div class="info-group">
+            <label>Gender:</label>
+                <p>MALE</p>
+        </div>
+
+        <button class="btn-change-password">Change Password</button>
+    </div>
+</section>
+
+        <footer class="footer-bar">
+            Student Name | Grade & Section ©2026
+        </footer>
+    </main>
+</div>
+
+
+    <script src="proj.js"></script>
+
+</body>
+</html>
