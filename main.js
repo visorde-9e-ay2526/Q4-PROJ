@@ -17,11 +17,10 @@ function clickLogin() {
         output.innerHTML = "Login Successful!";
         output.style.color = "green";
 
-        
-        document.getElementById("loginPage").classList.add("d-none");
+        // Redirect to the dashboard after successful login
+        window.location.href = "dashboard.html";
 
-        
-        document.getElementById("notebookPage").classList.remove("d-none");
+        return false;
 
     }
 
