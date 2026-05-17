@@ -203,25 +203,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    min-height: 100vh;
-    background-color: #f0f2f5;
-    background-size: 100px 100px;
-    font-family: 'Gill Sans', sans-serif;
-}
-
-.container {
-    display: flex;
-    width: 100%;
-    min-height: 100vh;
-}
-
 .sidebar {
     width: 200px;
     background-color: #1a1d23;
@@ -319,16 +300,4 @@ body {
     color: #333;
     font-weight: bold;
     font-size: 0.8rem;
-}
-
-.footer-bar {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    background-color: #888;
-    color: white;
-    text-align: right;
-    padding: 5px 20px;
-    font-size: 0.7rem;
 }
